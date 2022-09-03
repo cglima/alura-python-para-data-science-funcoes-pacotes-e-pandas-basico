@@ -1,0 +1,8 @@
+jupyter
+pandas
+numpy
+jupyterlab
+jupyterlab-git
+jupyterlab_github
+jupyterlab_code_formatter
+black
