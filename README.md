@@ -10,7 +10,7 @@ Neste curso, vamos:
 
 ## Ambiente de desenvolvimento
 
-Para instalar as bibliotecas do projeto, basta executar o comando:
+  Para instalar as bibliotecas do projeto, basta executar o comando:
 
 Ao executar o projeto a primeira vez:
 
@@ -26,17 +26,26 @@ Após instalar o Anaconda, executar , no terminal, o comando
     conda init
 ```
 
+Obs.: O comando acima só precisa rodar uma vez após instalar o Anaconda
+
 4. Criar e ativar ambiente virtual
 
 - É muito importante que o ambiente virtual seja salvo em uma pasta com um nome DIFERENTE de .env. Uma sugestão é .venv.
 
+Este comando deve ser executado quando você clonar o repositório.
+
 ```shell
     conda create  -p .venv python=3.9.2
+```
+
+Este comando deve ser executado todas as vezes para ativar o ambiente virtual no qual você vai trabalhar.
+
+```shell
     conda activate ./.venv
 ```
 
 1. Para instalar as bibliotecas do projeto, basta executar o comando:
 
 ```shell
-$ pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
